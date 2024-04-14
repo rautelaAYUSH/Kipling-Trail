@@ -1,10 +1,10 @@
-.background-image {
+.back-img {
     position:absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('Cottage.jpg');
+    background-image: url('Cottage.jpg') !important;
     background-attachment: scroll;
     background-position: center center;
     background-size: 100% 100%;
