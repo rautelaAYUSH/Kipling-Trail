@@ -1,0 +1,40 @@
+.back {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position:absolute;
+    /* top: 0;
+    left: 0; */
+    height: 100%;
+    width: 100%;
+    background-image: url('trek.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.about-container {
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    /* background-color: aqua; */
+    /* background: rgba(172, 233, 40, 0.7); */
+    background: rgba(199, 219, 191, 0.7);
+    max-height: 70vh;
+    border-radius: 2rem;
+    padding:2rem;
+    column-gap: 2rem;
+}
+
+.about-container img {
+    width: 50%; /* Adjust the width of the image */
+    max-height: 60vh;
+    border-radius: 2rem;
+}
+  
+.about-container p {
+    width: 50%; /* Adjust the width of the text */
+}

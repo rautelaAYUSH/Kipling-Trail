@@ -1,0 +1,142 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar {
+    /* background-color: #222222; */
+    color: #fff;
+    /* padding: 15px; */
+    margin:15px;
+    min-width: 60px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+.nav-links li {
+    margin-right: 30px;
+}
+  
+.nav-links li:last-child {
+    margin-right: 0;
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    background-color: #222222;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #4a4949;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+@media (max-width: 100px) {
+    .menu-button-container {
+      display: none;
+    }
+}
+
+/* Navbar.css */
+
+/* .navbar {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+  }
+   */
+  .menu-toggle {
+    display: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-list li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .menu-toggle {
+    display: block;
+  }
+  
+  @media (min-width: 800px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .menu-overlay {
+      width: 100%;
+    }
+  
+    .menu-overlay.show {
+      transform: translateX(0);
+    }
+  }
+  
