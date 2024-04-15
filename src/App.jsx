@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import data from './components/Data'; // Import the data array
 import Accommodation from './components/Accommodation';
 import image from './components/Images';
+import TariffDetails from './components/TariffDetails';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         {/* Pass the data array as a prop to the AboutUs component */}
         <Route path="/aboutus" element={<AboutUs data={data} />} />
         <Route path="/accommodation" element={<Accommodation image={image} />} />
+        <Route path="/tariffDetails" element={<TariffDetails />} />
       </Routes>
     </Router>
   );

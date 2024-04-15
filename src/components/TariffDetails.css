@@ -1,0 +1,20 @@
+.tariffBack {
+    background-color: #c7dbbf;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tariffBack h1 {
+    margin:0.3rem;
+}
+
+.tariffCard {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 2rem;
+    text-align: center;
+}

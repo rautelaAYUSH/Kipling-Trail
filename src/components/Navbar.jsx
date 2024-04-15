@@ -44,7 +44,8 @@ function Navbar() {
                 <div className="dropdown-content">
                   {/* <a href="accommodation">Accommodation</a> */}
                   <Link to="/accommodation">Accommodation</Link>
-                  <a href="#option2">Tariff Details</a>
+                  {/* <a href="#option2">Tariff Details</a> */}
+                  <Link to="/tariffDetails">Tariff Details</Link>
                 </div>
               )}
             </li>
