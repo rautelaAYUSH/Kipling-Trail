@@ -53,7 +53,8 @@ function Navbar() {
               <a href="#contact" onClick={toggleDropdown}>Activities</a>
               {showDropdown && (
                 <div className="dropdown-content">
-                  <a href="#option1">In Kipling</a>
+                  {/* <a href="#option1">In Kipling</a> */}
+                  <Link to="/inKipling">In Kipling</Link>
                   <a href="#option2">Around Kipling</a>
                 </div>
               )}

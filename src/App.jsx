@@ -5,6 +5,8 @@ import data from './components/Data'; // Import the data array
 import Accommodation from './components/Accommodation';
 import image from './components/Images';
 import TariffDetails from './components/TariffDetails';
+import InKipling from './components/InKipling';
+import inKiplingImages from './components/InKiplingImages';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/aboutus" element={<AboutUs data={data} />} />
         <Route path="/accommodation" element={<Accommodation image={image} />} />
         <Route path="/tariffDetails" element={<TariffDetails />} />
+        <Route path="/inKipling" element={<InKipling inKiplingImages={inKiplingImages}/>} /> 
       </Routes>
     </Router>
   );
