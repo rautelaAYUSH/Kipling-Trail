@@ -7,6 +7,8 @@ import image from './components/Images';
 import TariffDetails from './components/TariffDetails';
 import InKipling from './components/InKipling';
 import inKiplingImages from './components/InKiplingImages';
+import AroundKipling from './components/AroundKipling';
+import AroundKiplingImages from './components/AroundKiplingImages';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/accommodation" element={<Accommodation image={image} />} />
         <Route path="/tariffDetails" element={<TariffDetails />} />
         <Route path="/inKipling" element={<InKipling inKiplingImages={inKiplingImages}/>} /> 
+        <Route path="/AroundKipling" element={<AroundKipling AroundKiplingImages={AroundKiplingImages} />} />
       </Routes>
     </Router>
   );

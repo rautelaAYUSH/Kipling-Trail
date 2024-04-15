@@ -55,7 +55,8 @@ function Navbar() {
                 <div className="dropdown-content">
                   {/* <a href="#option1">In Kipling</a> */}
                   <Link to="/inKipling">In Kipling</Link>
-                  <a href="#option2">Around Kipling</a>
+                  {/* <a href="#option2">Around Kipling</a> */}
+                  <Link to="/AroundKipling" >Around Kipling</Link>
                 </div>
               )}
             </li>
