@@ -9,6 +9,7 @@ import InKipling from './components/InKipling';
 import inKiplingImages from './components/InKiplingImages';
 import AroundKipling from './components/AroundKipling';
 import AroundKiplingImages from './components/AroundKiplingImages';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/tariffDetails" element={<TariffDetails />} />
         <Route path="/inKipling" element={<InKipling inKiplingImages={inKiplingImages}/>} /> 
         <Route path="/AroundKipling" element={<AroundKipling AroundKiplingImages={AroundKiplingImages} />} />
+        <Route path="/ContactUs" element={<ContactUs />}  />
       </Routes>
     </Router>
   );

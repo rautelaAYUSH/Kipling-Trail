@@ -61,6 +61,9 @@ function Navbar() {
               )}
             </li>
             <li className="dropdown">
+              <Link to="/ContactUs" >Contact Us</Link>
+            </li>
+            {/* <li className="dropdown">
               <a href="#contact" onClick={toggleDropdown}>Contact Us</a>
               {showDropdown && (
                 <div className="dropdown-content">
@@ -70,7 +73,7 @@ function Navbar() {
                   <a href="#option4">Option 4</a>
                 </div>
               )}
-            </li>
+            </li> */}
           </ul>
         ) : (
           <div className="menu-button-container">

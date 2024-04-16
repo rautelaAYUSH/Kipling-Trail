@@ -61,7 +61,7 @@ function AboutUs({ data }) {
         <h1 style={{fontSize:"4rem", fontWeight:"2000",padding:"0", margin:"1rem"}}>About Us</h1>
         <div className="about-container">
           <img src={data[currentIndex].image} alt="" className="about-image" />
-          <p className="about-text" style={{fontSize:"1.5rem"}}>{data[currentIndex].text}</p>
+          <p className="about-text" style={{fontSize:"1.2rem"}}>{data[currentIndex].text}</p>
         </div>
       </div>
     </>
