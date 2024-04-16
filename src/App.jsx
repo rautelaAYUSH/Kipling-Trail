@@ -16,7 +16,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Pass the data array as a prop to the AboutUs component */}
         <Route path="/aboutus" element={<AboutUs data={data} />} />
         <Route path="/accommodation" element={<Accommodation image={image} />} />
         <Route path="/tariffDetails" element={<TariffDetails />} />

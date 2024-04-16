@@ -1,15 +1,3 @@
-// import './Footer.css'
-
-// function Footer() {
-//     return(
-//         <>
-        
-//         </>
-//     );
-// }
-
-// export default Footer;
-// Footer.jsx
 import './Footer.css';
 import { FaPhone, FaEnvelope, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
